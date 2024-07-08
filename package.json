@@ -1,0 +1,32 @@
+{
+  "name": "serverdocumentation",
+  "version": "1.0.0",
+  "description": "Documentation for all projects made by the MSCPO.",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "author": "LittleChest",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "vue": "^3.4.27",
+    "yaml": "^2.4.2"
+  },
+  "devDependencies": {
+    "@nolebase/vitepress-plugin-enhanced-mark": "2.0.0-rc2",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "1.28.0",
+    "@types/node": "^20.12.12",
+    "prettier": "3.2.5",
+    "vitepress": "1.2.2",
+    "vitepress-plugin-nprogress": "^0.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSCPO/ServerDocumentation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MSCPO/ServerDocumentation/issues"
+  },
+  "homepage": "https://docs.mscaome.top"
+}

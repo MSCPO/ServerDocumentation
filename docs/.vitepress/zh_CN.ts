@@ -1,0 +1,158 @@
+import { defineConfig, type DefaultTheme } from 'vitepress'
+
+export const zh_CN = defineConfig({
+  lang: 'zh-CN',
+  title: 'MSCPO开服文档',
+  description: '由Minecraft服务器集体宣传组织维护的开服文档',
+
+  themeConfig: {
+    nav: nav(),
+
+    sidebar: {
+      '/zh_CN/JAVA/Cuberite/': { base: '/zh_CN/JAVA/', items: sidebarCuberite() },
+    },
+
+    editLink: {
+      pattern: 'https://github.com/LeavesMC/Documentation/edit/main/src/:path',
+      text: '在 GitHub 上编辑此页面',
+    },
+
+    footer: {
+      message: '所有文档采用 CC BY-SA 4.0 许可协议发布',
+      copyright: '© 2024 MSCPO',
+    },
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页',
+    },
+
+    outline: {
+      label: '总览',
+    },
+
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'medium',
+      },
+    },
+
+    langMenuLabel: '切换语言',
+    returnToTopLabel: '回到顶部',
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
+  },
+})
+
+function nav(): DefaultTheme.NavItem[] {
+  return [
+    {
+      text: '主页',
+      link: '/zh_CN/',
+    },
+    {
+      text: 'JAVA',
+      link: '/zh_CN/JAVA/',
+      activeMatch: '/JAVA/',
+    },
+    {
+      text: '基岩',
+      link: '/zh_CN/Bedrock/',
+      activeMatch: '/Bedrock/',
+    },
+    {
+      text: '更多',
+      items: [
+        {
+          text: '主站',
+          link: 'https://mscpo.mscaome.top',
+        },
+      ],
+    },
+  ]
+}
+
+export const search: DefaultTheme.LocalSearchOptions['locales'] = {
+  zh_CN: {
+    translations: {
+      button: {
+        buttonText: '搜索文档',
+        buttonAriaLabel: '搜索文档',
+      },
+      modal: {
+        noResultsText: '无法找到相关结果',
+        resetButtonTitle: '清除查询条件',
+        footer: {
+          selectText: '选择',
+          navigateText: '切换',
+        },
+      },
+    },
+  },
+}
+// Cuberite的sidebar
+function sidebarCuberite(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      collapsed: false,
+      items: [
+        {
+          text: '简介',
+          collapsed: false,
+          base: '/zh_CN/JAVA/Cuberite/0_INTRODUCTION/',
+          items: [
+            { text: '介绍', link: '0_1_Introduction' },
+            { text: '什么是 Cuberite', link: '0_2_What_is_Cuberite' },
+            { text: '历史', link: '0_3_History' },
+          ],
+        },
+        {
+          text: '安装',
+          collapsed: false,
+          base: '/zh_CN/JAVA/Cuberite/1_INSTALLING/',
+          items: [
+            { text: '预编译版本', link: '1_1_Pre-Compiled_Builds' },
+            { text: '自行编译 CUBERITE', link: '1_2_Compiling_Cuberite_Yourself' },
+            { text: 'CUBERITE，启动！~', link: '1_3_Running_Cuberite' },
+          ],
+        },
+        {
+          text: '基础配置',
+          collapsed: false,
+          base: '/zh_CN/JAVA/Cuberite/2_CONFIGURATION_BASICS/',
+          items: [
+            { text: '配置概述', link: '2_1_CONFIGURATION_OVERVIEW' },
+            { text: '权限', link: '2_2_PERMISSIONS' },
+            { text: 'WEBADMIN', link: '2_3_WEBADMIN' },
+            { text: '世界', link: '2_4_WORLDS' },
+            { text: '插件', link: '2_5_PLUGINS' },
+          ],
+        },
+        {
+          text: '配置WORLD.INI',
+          collapsed: false,
+          base: '/zh_CN/JAVA/Cuberite/3_CONFIGURING_WORLD_INI/',
+          items: [
+            { text: '什么是 world.ini', link: '3_1_What_is_world-ini' },
+            { text: '自行编译 CUBERITE', link: 'fakeplayer' },
+            { text: 'CUBERITE，启动！~', link: 'fakeplayer' },
+          ],
+        },
+        {
+          text: '多世界',
+          collapsed: false,
+          base: '/zh_CN/JAVA/Cuberite/4_MULTIWORLDS/',
+          items: [
+            { text: '预编译版本', link: 'configuration' },
+            { text: '自行编译 CUBERITE', link: 'fakeplayer' },
+            { text: 'CUBERITE，启动！~', link: 'fakeplayer' },
+          ],
+        },
+      ],
+    },
+  ]
+}
