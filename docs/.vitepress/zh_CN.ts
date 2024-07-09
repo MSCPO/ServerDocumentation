@@ -173,3 +173,4 @@ function sidebarCuberite(): DefaultTheme.SidebarItem[] {
     },
   ]
 }
+
