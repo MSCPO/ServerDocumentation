@@ -18,7 +18,7 @@
     "@nolebase/vitepress-plugin-enhanced-readabilities": "1.28.0",
     "@types/node": "^20.12.12",
     "prettier": "3.2.5",
-    "vitepress": "1.2.2",
+    "vitepress": "1.3.0",
     "vitepress-plugin-nprogress": "^0.0.4"
   },
   "repository": {

@@ -1,16 +1,10 @@
----
-layout: wiki  # 使用wiki布局模板
-wiki: MDD_Cuberite_Users_Manual # 这是项目名
-title: 3.10 - WEATHER
-comment_id: /document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/
----
-## 10 - WEATHER
+# WEATHER
 
 指定世界上的天气设置。所有的数值均以Tick为单位。
 
-### 可选选项
+## 可选选项
 
-| 变量 | 描述 | 缺省值 |
+| 变量 | 描述 | 默认值 |
 | --- | --- | --- |
 | MaxSunnyTicks |  | 180000 |
 | MinSunnyTicks |  | 12000 |

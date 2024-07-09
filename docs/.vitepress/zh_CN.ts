@@ -100,6 +100,11 @@ function sidebarCuberite(): DefaultTheme.SidebarItem[] {
     {
       collapsed: false,
       items: [
+        { 
+          text: '前言',
+          base: '/zh_CN/JAVA/Cuberite/',
+          link: 'index'
+        },
         {
           text: '简介',
           collapsed: false,
@@ -138,19 +143,31 @@ function sidebarCuberite(): DefaultTheme.SidebarItem[] {
           base: '/zh_CN/JAVA/Cuberite/3_CONFIGURING_WORLD_INI/',
           items: [
             { text: '什么是 world.ini', link: '3_1_What_is_world-ini' },
-            { text: '自行编译 CUBERITE', link: 'fakeplayer' },
-            { text: 'CUBERITE，启动！~', link: 'fakeplayer' },
+            {
+              text: 'world.ini配置详解',
+              collapsed: false,
+              base: '/zh_CN/JAVA/Cuberite/3_CONFIGURING_WORLD_INI/',
+              items: [
+                { text: 'General', link: '3_2_General' },
+                { text: 'Broadcasting', link: '3_3_Broadcasting' },
+                { text: 'SpawnPosition', link: '3_4_SpawnPosition' },
+                { text: 'Storage', link: '3_5_Storage' },
+                { text: 'Plants', link: '3_6_Plants' },
+                { text: 'Physics', link: '3_7_Physics' },
+                { text: 'Mechanics', link: '3_8_Mechanics' },
+                { text: 'Monsters', link: '3_9_Monsters' },
+                { text: 'Weather', link: '3_10_Weather' },
+                { text: 'Generator', link: '3_11_Generator' },
+                { text: 'Other', link: '3_12_Other' },
+                { text: 'Example_Configurations', link: '3_13_Example_Configurations' },
+              ]
+            },
           ],
         },
-        {
+        { 
           text: '多世界',
-          collapsed: false,
           base: '/zh_CN/JAVA/Cuberite/4_MULTIWORLDS/',
-          items: [
-            { text: '预编译版本', link: 'configuration' },
-            { text: '自行编译 CUBERITE', link: 'fakeplayer' },
-            { text: 'CUBERITE，启动！~', link: 'fakeplayer' },
-          ],
+          link: 'index'
         },
       ],
     },

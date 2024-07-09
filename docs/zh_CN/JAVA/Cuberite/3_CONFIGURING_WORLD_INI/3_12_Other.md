@@ -1,12 +1,6 @@
----
-layout: wiki  # 使用wiki布局模板
-wiki: MDD_Cuberite_Users_Manual # 这是项目名
-title: 3.12 - 其他
-comment_id: /document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/
----
-## 12 - 其他
+# 其他
 
-### 可选选项
+## 可选选项
 
 | 变量 | 描述 | 缺省值 |
 | --- | --- | --- |
