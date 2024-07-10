@@ -12,7 +12,7 @@ Cuberite可以通过编辑各种文件来进行配置。以下是所有这些文
 
 ## `<WORLD NAME>/WORLD.INI`
 
-该文件配置特定世界的各个方面。您可以在这里选择游戏模式。请参阅[GameMode](/document/mdd_cuberite_users_manual/3_configuring_world_ini/3_2_general#可选选项)。请注意，每个世界都有自己的`world.ini`文件，存储在`<World name>/world.ini`中。
+该文件配置特定世界的各个方面。您可以在这里选择游戏模式。请参阅[GameMode](../3_CONFIGURING_WORLD_INI/3_2_General#可选选项)。请注意，每个世界都有自己的`world.ini`文件，存储在`<World name>/world.ini`中。
 
 ## `MONSTERS.INI`
 
