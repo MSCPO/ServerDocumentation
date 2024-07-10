@@ -6,6 +6,7 @@ export const zh_CN = defineConfig({
   description: '由Minecraft服务器集体宣传组织维护的开服文档',
 
   themeConfig: {
+    logo: "/favicon.png",
     nav: nav(),
 
     sidebar: {
@@ -68,6 +69,10 @@ function nav(): DefaultTheme.NavItem[] {
       text: '更多',
       items: [
         {
+          text: '编写进度',
+          link: '/zh_CN/Progress',
+        },
+        {
           text: '主站',
           link: 'https://mscpo.mscaome.top',
         },
@@ -94,7 +99,12 @@ export const search: DefaultTheme.LocalSearchOptions['locales'] = {
     },
   },
 }
-// Cuberite的sidebar
+
+// ##### ####### #####
+// ##### Sidebar #####
+// ##### ####### #####
+
+// Cuberite Sidebar Start
 function sidebarCuberite(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -173,4 +183,4 @@ function sidebarCuberite(): DefaultTheme.SidebarItem[] {
     },
   ]
 }
-
+// Cuberite Sidebar END

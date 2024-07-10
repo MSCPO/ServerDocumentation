@@ -1,6 +1,6 @@
 import { defineConfigWithTheme } from 'vitepress'
 import { zh_CN, search as zhCNSearch } from './zh_CN'
-
+import task_lists from 'markdown-it-task-lists'
 
 export default defineConfigWithTheme({
   lang: 'zh-CN',
@@ -63,5 +63,10 @@ export default defineConfigWithTheme({
   },
   sitemap: {
     hostname: 'https://docs.mscaome.top',
+  },
+  markdown: {
+    config: md => {
+      md.use(task_lists)
+    },
   },
 })

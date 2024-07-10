@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: 'MSCPO'
-  text: '开服文档（JAVA）'
+  text: '开服文档（Bedrock）'
   tagline: '由Minecraft服务器集体宣传组织维护的开服文档'
   image:
     src: /logo.svg

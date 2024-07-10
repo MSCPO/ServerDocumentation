@@ -24,3 +24,8 @@ Cuberite可在Windows、*nix和Android操作系统上运行。这包括Android�
 ## 用户手册汉化项目参与方
 
 - [MSCMDD](https://github.com/MSCMDD/)
+- [明灯·Alethea 明灯公社服务器（原M&A互助公社）](https://mc.mscaome.top/)
+
+## 已知使用Cuberite的服务器
+
+- DFGG服务器

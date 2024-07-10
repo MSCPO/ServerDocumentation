@@ -10,6 +10,8 @@
   "author": "LittleChest",
   "license": "AGPL-3.0-or-later",
   "dependencies": {
+    "markdown-it": "^14.1.0",
+    "markdown-it-task-lists": "^2.1.1",
     "vue": "^3.4.27",
     "yaml": "^2.4.2"
   },

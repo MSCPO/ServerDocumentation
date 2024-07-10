@@ -8,6 +8,13 @@ hero:
   image:
     src: /logo.svg
     alt: MSCPO
+  actions:
+    - theme: brand
+      text: 编写进度
+      link: ./zh_CN/Progress
+    - theme: alt
+      text: 贡献文档
+      link: https://github.com/MSCPO/ServerDocumentation
 
 features:
   - icon:
