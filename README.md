@@ -4,7 +4,7 @@
 
 ## 在线阅读
 
-[https://mscpodoc.netlify.app/]https://mscpodoc.netlify.app/
+[https://mscpodoc.netlify.app/](https://mscpodoc.netlify.app/)
 
 ## 本地阅读
 
