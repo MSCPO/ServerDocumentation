@@ -17,6 +17,12 @@ features:
     link: ./Sponge/leaves/guides/getting-started
     linkText: '开始阅读'
   - icon:
+      src: https://fabricmc.net/assets/logo.png
+    title: Mod端
+    details: 包含Fabric端、Forge端、Neoforge端、Quilt端（注:混合端暂时不在支持内;地毯生电端本质上是Fabric端）
+    link: ./Mod/
+    linkText: '开始阅读'
+  - icon:
       src: https://docs.spongepowered.org/stable/zh-CN/_static/spongie-mark-dark.svg
     title: Sponge
     details: SpongeAPI 是一个针对 Minecraft（Java 版）设计的，全新的插件 API。你可以在纯原版的服务器（即 SpongeVanilla）上运行它，也可以在使用 MinecraftForge 的 Mod 服务器（即 SpongeForge）上运行它。
