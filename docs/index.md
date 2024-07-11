@@ -10,23 +10,23 @@ hero:
     alt: MSCPO
   actions:
     - theme: brand
-      text: 编写进度
-      link: ./zh_CN/Progress
+      text: 开始阅读
+      link: ./zh_CN/
     - theme: alt
       text: 贡献文档
       link: https://github.com/MSCPO/ServerDocumentation
 
 features:
   - icon:
-      src: /Images/JAVA/favicon.png
-    title: JAVA端
-    details: 本教程将通过手把手的方式，一步步地帮助你建立属于你自己的Java版服务器。
-    link: ./zh_CN/JAVA/
-    linkText: '开始阅读'
+      src: /Images/Nether_Reactor_Core.webp
+    title: 教程全面
+    details: 涵盖插件端到Mod端，JAVA端到基岩端，甚至对Cuberite等第三方服务端提供了丰富的内容<br>（注：仍在编写中）
   - icon:
-      src: /Images/Bedrock/favicon.png
-    title: 基岩端
-    details: 本教程将通过手把手的方式，一步步地帮助你建立属于你自己的基岩版服务器。
-    link: ./zh_CN/Bedrock/
-    linkText: '开始阅读'
+      src: /Images/Lab_Table.png
+    title: 更新迅速
+    details: 本文档由Minecraft服务器集体宣传组织维护，欢迎贡献AwA
+  - icon:
+      src: /Images/Chalkboard_Board.png
+    title: 易于理解
+    details: 本教程将通过手把手的方式，一步步地帮助你建立属于你自己的服务器。
 ---
