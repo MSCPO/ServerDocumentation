@@ -28,5 +28,5 @@ features:
   - icon:
       src: /Images/Chalkboard_Board.png
     title: 易于理解
-    details: 本教程将通过手把手的方式，一步步地帮助你建立属于你自己的服务器。
+    details: 本教程将通过手把手的方式，帮助你一步步地建立属于你自己的服务器。
 ---
