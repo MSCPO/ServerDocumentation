@@ -57,8 +57,16 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: 'JAVA',
-      link: '/zh_CN/JAVA/',
-      activeMatch: '/JAVA/',
+      items: [
+        {
+          text: '导航页',
+          link: '/zh_CN/JAVA/',
+        },
+        {
+          text: 'Cuberite',
+          link: '/zh_CN/JAVA/Cuberite/',
+        },
+      ],
     },
     {
       text: '基岩',
