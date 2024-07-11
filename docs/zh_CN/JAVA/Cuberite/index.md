@@ -1,3 +1,8 @@
+---
+next:
+  text: '介绍'
+  link: './0_INTRODUCTION/0_1_Introduction'
+---
 # Cuberite是什么？
 
 >一个轻量级，快速和可扩展的MINECRAFT游戏服务端

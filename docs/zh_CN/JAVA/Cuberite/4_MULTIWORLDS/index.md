@@ -1,3 +1,9 @@
+---
+prev:
+  text: 'Example_Configurations'
+  link: '../3_CONFIGURING_WORLD_INI/3_13_Example_Configurations'
+next: false
+---
 # 1 - 多世界概述
 
 Cuberite支持多个世界。每个世界都有自己的`world.ini`文件。可以通过编辑`settings.ini`文件来添加其他的世界。下面的示例中对此进行了解释。

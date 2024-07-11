@@ -68,5 +68,9 @@ export default defineConfigWithTheme({
     config: md => {
       md.use(task_lists)
     },
+    image: {
+      // 开启图片懒加载
+      lazyLoading: true
+    },
   },
 })
