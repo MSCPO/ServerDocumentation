@@ -50,7 +50,7 @@ export default defineConfigWithTheme({
 
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/MSCPO' },
+      { icon: 'github', link: 'https://github.com/MSCPO/ServerDocumentation' },
     ],
 
     search: {
