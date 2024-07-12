@@ -187,6 +187,11 @@ function sidebarCuberite(): DefaultTheme.SidebarItem[] {
           base: '/zh_CN/JAVA/Cuberite/4_MULTIWORLDS/',
           link: 'index'
         },
+        { 
+          text: '常见问题',
+          base: '/zh_CN/JAVA/Cuberite/',
+          link: 'FAQ'
+        },
       ],
     },
   ]
