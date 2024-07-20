@@ -2,6 +2,6 @@
 
 （欢迎贡献）
 
-## SpongeForge
+# SpongeForge
 
-SpongeForge 集成了 Minecraft Forge，所以你可以在 SpongeForge 运行 Minecraft Forge 模组。事实上，SpongeForge 本身更像一个加载 Sponge 插件的 Forge 模组，不过这些都是技术细节。
+SpongeForge 是一个 Minecraft Forge 的模组允许你在 Forge 运行 Sponge 插件。事实上，SpongeForge 本身更像 Sponge 插件的前置模组，不过这些都是技术细节。
