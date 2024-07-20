@@ -4,7 +4,7 @@
 
 - [x] Cuberite
 - [ ] SpigotSeries
-- [ ] Sponge
+- [x] Sponge
 - [ ] Fabric
 - [ ] Forge
 

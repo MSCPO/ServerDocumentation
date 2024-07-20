@@ -25,9 +25,9 @@ features:
   - icon:
       src: https://docs.spongepowered.org/stable/zh-CN/_static/spongie-mark-dark.svg
     title: Sponge
-    details: SpongeAPI 是一个针对 Minecraft（Java 版）设计的，全新的插件 API。你可以在纯原版的服务器（即 SpongeVanilla）上运行它，也可以在使用 MinecraftForge 的 Mod 服务器（即 SpongeForge）上运行它。<br>*编写中
-    #link: ./Sponge/
-    #linkText: '开始阅读'
+    details: SpongeAPI 是一个针对 Minecraft（Java 版）设计的，全新的插件 API。你可以在纯原版的服务器（即 SpongeVanilla）上运行它，也可以在使用 MinecraftForge 的 Mod 服务器（即 SpongeForge）上运行它。<br>*官方文档写的比我们好QAQ
+    link: https://docs.spongepowered.org/stable/zh-CN/
+    linkText: '开始阅读'
   - icon:
       src: https://www.spigotmc.org/favicon.ico
     title: Spigot系
