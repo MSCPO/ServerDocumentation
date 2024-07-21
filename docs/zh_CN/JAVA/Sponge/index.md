@@ -33,3 +33,9 @@ Minecraft 本身没有复杂的权限系统，仅有管理员的概念。管理�
 解决方法：
 
 使用LuckPerms/PermissionEX来配置权限节点
+
+## 特别鸣谢
+
+- [Sponge 官方文档](https://docs.spongepowered.org/stable/zh-CN/index.html)
+- [HanSiqi2008](https://github.com/HanSiqi2008) 文案编辑
+- [MSCMDD](https://github.com/MSCMDD) 文案编辑

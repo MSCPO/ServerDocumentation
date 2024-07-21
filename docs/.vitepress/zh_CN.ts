@@ -63,12 +63,16 @@ function nav(): DefaultTheme.NavItem[] {
           link: '/zh_CN/JAVA/',
         },
         {
-          text: 'Cuberite',
-          link: '/zh_CN/JAVA/Cuberite/',
+          text: 'Vanilla(原版)',
+          link: '/zh_CN/JAVA/Vanilla/',
         },
         {
           text: 'Sponge',
           link: '/zh_CN/JAVA/Sponge/',
+        },
+        {
+          text: 'Cuberite',
+          link: '/zh_CN/JAVA/Cuberite/',
         },
       ],
     },

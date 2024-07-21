@@ -14,8 +14,8 @@ features:
       src: https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/favicon.ico
     title: Vanilla(原版)
     details: 【共通线】Vanilla 是 Minecraft 的原版服务端，由 Mojang 官方发布。 它旨在提供最原始的 Minecraft 游戏体验，不包含任何第三方的性能优化或插件支持。<br>*编写中
-    #link: ./Vanilla/
-    #linkText: '开始阅读'
+    link: ./Vanilla/
+    linkText: '开始阅读'
   - icon:
       src: https://fabricmc.net/assets/logo.png
     title: Mod端

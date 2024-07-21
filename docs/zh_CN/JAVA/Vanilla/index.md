@@ -1,3 +1,42 @@
-# 等待编写...
+# Vanilla端是什么？
 
-（欢迎贡献）
+对于 Java 版来说，绝大多数服务端的始祖便是 Mojang 提供的官方服端了，按照习惯，我们把官服叫做 Vanilla(香草，代指纯净[纯净服务端歧义])  
+
+其实他本身的名字应该是 Minecraft_Server(但是大多数情况下我们不会用这个名字)
+
+>Vanilla 有以下的属性
+>- 不支持除了原生 Minecraft 外的任何特性内容
+>- Mojang 官方支持
+>- 自带原生 GUI 控制台窗口
+>- 相对比其他服务端来说，性能较差
+
+根据以上属性，我们可以发现 Vanilla 基本上啥都干不了，就是原生兼好，因此比较适合开*原版*的服务器(比如玩玩*命令方块小游戏地图*啊，好友 ~~基友♂~~ 联机啊之类的)
+
+## 快速开始
+
+### 下载 Vanilla: 
+
+1. 前往正版启动器手动选择版本下载
+2. 前往第三方下载站下载（如GetBukkit:https://getbukkit.org/download/vanilla）
+
+### 安装 Java 环境
+
+运行 Vanilla 需要 Java。或许你已经安装了 Java，但你可能需要升级 Java 版本。
+
+如果您的计算机运行 Windows 或 macOS 操作系统，您可以[Adaptithere](https://adoptium.net/zh-CN/temurin/releases/)下载OpenJDK。 Java 8、11和17都可在这里找到。
+
+::: tip 常用的 Java 环境
+
+- [Azul Zulu OpenJDK](https://www.azul.com/downloads/)
+- [Adaptithere](https://adoptium.net/zh-CN/temurin/releases/)
+- [Dragonwell](https://github.com/dragonwell-project)
+- [Microsoft Build of OpenJDK](https://learn.microsoft.com/zh-cn/java/openjdk/download)
+
+:::
+
+::: warning 你可能需要手动调整 Java 的路径
+
+- 在 Profile（Advanced Options）中，依次找到 <档案名> -> Java-Executable（.../java.exe）
+- 服务器使用全局 PATH 变量或者你指定的完整 Java 运行时的路径。
+
+:::
