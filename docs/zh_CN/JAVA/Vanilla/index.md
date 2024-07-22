@@ -52,3 +52,25 @@ Java 8 LTS 版本适用于 Minecraft 1.12-1.16.5 版本，Java 11 LTS 版本向�
 - 服务器使用全局 PATH 变量或者你指定的完整 Java 运行时的路径。
 
 :::
+
+### 启动服务器
+
+::: details Windows
+Shift + 右键服务器文件夹，单击“在此处打开命令窗口”
+
+键入 `java -jar server.jar` 回车。
+
+服务器将会启动。
+:::
+
+::: details Linux
+打开终端
+
+键入 `java -jar server.jar` 回车。
+
+服务器将会启动。
+:::
+
+### 本教程引用了一些作者的文章
+
+- [shaokeyibb/Minecraft-Server-Starting-Guide](https://github.com/shaokeyibb/Minecraft-Server-Starting-Guide)
