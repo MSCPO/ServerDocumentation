@@ -27,10 +27,22 @@
 
 ::: tip 常用的 Java 环境
 
-- [Azul Zulu OpenJDK](https://www.azul.com/downloads/)
+- [Azul Zulu OpenJDK](https://www.azul.com/downloads/)（推荐）对于游戏优化方面，Zulu内存占用相对较小。
+- [Dragonwell](https://github.com/dragonwell-project)（推荐）据说在运算上有优化。
 - [Adaptithere](https://adoptium.net/zh-CN/temurin/releases/)
-- [Dragonwell](https://github.com/dragonwell-project)
-- [Microsoft Build of OpenJDK](https://learn.microsoft.com/zh-cn/java/openjdk/download)
+- [Microsoft Build of OpenJDK](https://learn.microsoft.com/zh-cn/java/openjdk/download) 不知道优化了什么
+- [Oracle JDK](https://www.oracle.com/java/technologies/downloads/) 原汁原味（大雾
+- [Red Hat build of OpenJDK](https://developers.redhat.com/products/openjdk/download) 我不知道为什么很多人都推荐这个，但是嘛我相信红帽[狗头]（需要账户）
+- [Liberica JDK](https://bell-sw.com/pages/downloads/) Liberica JDK是一位代表接触的第一个除 Oracle JDK 以外的JDK
+- [Semeru JDK](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/) 使用了OpenJ9 VM降低JVM的内存占用和处理器占用
+
+-------
+
+版本说明：
+
+Java 17 LTS 版本适用于 Minecraft 1.17-1.19.4 版本，Minecraft 1.17-1.17.1 默认 Java 版本是 16，Java 17 LTS 向下兼容。
+
+Java 8 LTS 版本适用于 Minecraft 1.12-1.16.5 版本，Java 11 LTS 版本向下兼容。
 
 :::
 
