@@ -29,4 +29,10 @@ features:
     details: 本教程将通过手把手的方式，一步步地帮助你建立属于你自己的基岩版服务器。
     link: ./Bedrock/
     linkText: '开始阅读'
+  - icon:
+      src: /Images/Chalkboard_Board.png
+    title: 番外
+    details: 这涵盖了如何选择/鉴别云主机（不吃亏）、如何友好的提问 等
+    link: ./Extra/
+    linkText: '开始阅读'
 ---
