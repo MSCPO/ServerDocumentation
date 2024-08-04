@@ -11,6 +11,7 @@ export const zh_CN = defineConfig({
 
     sidebar: {
       '/zh_CN/JAVA/Cuberite/': { base: '/zh_CN/JAVA/', items: sidebarCuberite() },
+      '/zh_CN/JAVA/Vanilla/': { base: '/zh_CN/JAVA/', items: sidebarVanilla() },
     },
 
     editLink: {
@@ -205,3 +206,33 @@ function sidebarCuberite(): DefaultTheme.SidebarItem[] {
   ]
 }
 // Cuberite Sidebar END
+
+// Vanilla Sidebar Start
+function sidebarVanilla(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      collapsed: false,
+      items: [
+        { 
+          text: '前言',
+          base: '/zh_CN/JAVA/Vanilla/',
+          link: 'index'
+        },
+        { 
+          text: '快速开始',
+          base: '/zh_CN/JAVA/Vanilla/',
+          link: 'QuickStart'
+        },
+        { 
+          text: '进阶',
+          collapsed: false,
+          base: '/zh_CN/JAVA/Vanilla/Advanced/',
+          items: [
+            { text: '配置文件', link: 'config' },
+          ]
+        },
+      ],
+    },
+  ]
+}
+// Vanilla Sidebar END
