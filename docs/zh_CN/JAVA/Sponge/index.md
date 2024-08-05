@@ -1,8 +1,8 @@
-# Sponge开服文档
+# Sponge是什么？
 
-（欢迎贡献）
+Sponge 项目的目的是为 Minecraft（Java 版）提供一个插件开发框架。他是由社区支持的，并且它的开源属性使得任何人都得以参与。
 
-## 官方文档写的比我们好系列
+大多数基于 SpongeAPI 的插件应能跨多个 Minecraft 版本使用而不用特别更新。即在大部分情况下，服主不需要担心插件不兼容的问题。
 
 前往官方文档：[Sponge 开发文档](https://docs.spongepowered.org/stable/zh-CN/index.html)
 

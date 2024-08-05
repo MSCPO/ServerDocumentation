@@ -3,7 +3,7 @@ next:
   text: '介绍'
   link: './0_INTRODUCTION/0_1_Introduction'
 ---
-# Cuberite是什么？
+# 什么是Cuberite？
 
 >一个轻量级，快速和可扩展的MINECRAFT游戏服务端
 [[官方解答]](0_INTRODUCTION/0_2_What_is_Cuberite.md)

@@ -10,20 +10,22 @@
   "author": "MSCPO",
   "license": "AGPL-3.0-or-later",
   "dependencies": {
-    "markdown-it": "^14.1.0",
-    "markdown-it-task-lists": "^2.1.1",
-    "vue": "^3.4.27",
-    "yaml": "^2.4.2"
+    "markdown-it": "latest",
+    "markdown-it-task-lists": "latest",
+    "vue": "latest",
+    "yaml": "latest"
   },
   "devDependencies": {
-    "@nolebase/vitepress-plugin-enhanced-mark": "2.0.0-rc2",
-    "@nolebase/vitepress-plugin-enhanced-readabilities": "1.28.0",
-    "@types/node": "^20.12.12",
-    "prettier": "3.2.5",
-    "vitepress": "1.3.0",
-    "vitepress-plugin-comment-with-giscus": "^1.1.15",
-    "vitepress-plugin-nprogress": "^0.0.4",
-    "vitepress-theme-website": "^1.0.8"
+    "@nolebase/ui": "^2.4.0",
+    "@nolebase/vitepress-plugin-enhanced-mark": "latest",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "latest",
+    "@nolebase/vitepress-plugin-inline-link-preview": "latest",
+    "@types/node": "latest",
+    "prettier": "latest",
+    "vitepress": "latest",
+    "vitepress-plugin-comment-with-giscus": "latest",
+    "vitepress-plugin-nprogress": "latest",
+    "vitepress-theme-website": "latest"
   },
   "repository": {
     "type": "git",

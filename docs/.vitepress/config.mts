@@ -1,6 +1,7 @@
 import { defineConfigWithTheme } from 'vitepress'
 import { zh_CN, search as zhCNSearch } from './zh_CN'
 import task_lists from 'markdown-it-task-lists'
+import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 
 export default defineConfigWithTheme({
   lang: 'zh-CN',
@@ -19,6 +20,7 @@ export default defineConfigWithTheme({
     ssr: {
       noExternal: [
         '@nolebase/vitepress-plugin-enhanced-readabilities',
+        '@nolebase/ui',
       ],
     },
   },
@@ -67,6 +69,7 @@ export default defineConfigWithTheme({
   markdown: {
     config: md => {
       md.use(task_lists)
+      md.use(InlineLinkPreviewElementTransform)
     },
     image: {
       // 开启图片懒加载

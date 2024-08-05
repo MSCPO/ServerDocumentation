@@ -4,18 +4,16 @@ import DefaultTheme from 'vitepress/theme'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
 
+import './styles/index.css'
 import vitepressNprogress from 'vitepress-plugin-nprogress'
 import 'vitepress-plugin-nprogress/lib/css/index.css'
-
-import '@nolebase/vitepress-plugin-enhanced-mark/client/style.css'
 
 import {
   NolebaseEnhancedReadabilitiesMenu,
   NolebaseEnhancedReadabilitiesScreenMenu,
-} from '@nolebase/vitepress-plugin-enhanced-readabilities'
-import '@nolebase/vitepress-plugin-enhanced-readabilities/dist/style.css'
+} from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 
-import './index.css'
+import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 
 export default {
   ...DefaultTheme,
@@ -25,8 +23,7 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu),
-      'nav-screen-content-after': () =>
-        h(NolebaseEnhancedReadabilitiesScreenMenu),
+      'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu)
     })
   },
   setup() {
