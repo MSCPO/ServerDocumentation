@@ -11,7 +11,7 @@ graph LR
     Vanilla --> Bukkit
     subgraph Bukkit生态
         Bukkit --> Spigot
-        subgraph Spigot分支
+        subgraph Spigot生态
             Spigot --> Paper
             subgraph Paper分支
                 Paper --> Pufferfish
