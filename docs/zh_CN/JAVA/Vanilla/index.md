@@ -1,3 +1,8 @@
+---
+next:
+  text: '快速开始'
+  link: './QuickStart'
+---
 # Vanilla端是什么？
 
 对于 Java 版来说，绝大多数服务端的始祖便是 Mojang 提供的官方服端了，按照习惯，我们把官服叫做 Vanilla(香草，代指纯净[纯净服务端歧义])  
