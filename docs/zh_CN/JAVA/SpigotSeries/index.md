@@ -4,6 +4,8 @@ Spigot 是一个基于 Minecraft 的开源服务器软件，旨在优化性能�
 
 ## 庞大的 Spigot 家族
 
+::: info Spigot和她的孩子们（不完全）
+
 ```mermaid
 graph LR
     Vanilla --> Bukkit
@@ -18,9 +20,11 @@ graph LR
                 Pufferfish --> Matter
                 Paper --> Tuinity
                 Tuinity --> Akarin
+                Akarin --> Gale
                 Purpur --> MultiPaper
                 Paper --> Airplane
                 Pufferfish --> Mirai
+                Paper --> Gale
                 Paper --> Folia
                 Folia --> Kaiiju
                 Paper --> PlazmaBukkit
@@ -36,7 +40,6 @@ graph LR
                 Folia --> Luminol
                 Paper --> Leaves
                 Purpur --> KeYi
-                Paper --> Gale
                 Airplane --> Gale
                 Purpur --> Gale
                 Mirai --> Gale
@@ -63,3 +66,7 @@ graph LR
         end
     end
 ```
+
+:::
+
+由于很多服务端是分支，所以有很多配置文件是通用的。
