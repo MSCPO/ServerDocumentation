@@ -23,6 +23,11 @@ export default {
                         { text: '配置文件', link: 'config' },
                       ]
                    },
+                   { 
+                    text: '常见问题',
+                    base: '/zh_CN/JAVA/Vanilla/',
+                    link: 'FAQ'
+                  },
                 ],
             }
         ]

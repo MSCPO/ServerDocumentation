@@ -2,7 +2,7 @@
 
 ## JAVA
 
-- [ ] Vanilla(原版) 进行中...
+- [x] Vanilla(原版)
 - [x] Cuberite
 - [ ] SpigotSeries
 - [x] Sponge

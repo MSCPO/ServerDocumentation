@@ -19,7 +19,7 @@ hero:
 features:
   - icon:
       src: /Images/JAVA/favicon.png
-    title: JAVA端
+    title: Java端
     details: 本教程将通过手把手的方式，一步步地帮助你建立属于你自己的Java版服务器。
     link: ./JAVA/
     linkText: '开始阅读'
