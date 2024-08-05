@@ -21,9 +21,11 @@
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.4.0",
     "@nolebase/vitepress-plugin-inline-link-preview": "^2.4.0",
     "@types/node": "latest",
+    "mermaid": "^10.9.1",
     "prettier": "latest",
     "vitepress": "latest",
     "vitepress-plugin-comment-with-giscus": "latest",
+    "vitepress-plugin-mermaid": "^2.0.16",
     "vitepress-plugin-nprogress": "latest",
     "vitepress-theme-website": "latest"
   },
