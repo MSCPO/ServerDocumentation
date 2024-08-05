@@ -12,7 +12,7 @@
 
 如果是离线服，配置`server.properties`，找到`online-mode=true`，将`online-mode=true`改为`online-mode=false`以关闭登陆验证
 
-``` server.properties{4}
+``` properties{4}
 max-players=20
 online-mode=true // [!code focus]
 enable-status=true
