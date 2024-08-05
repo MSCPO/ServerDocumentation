@@ -53,7 +53,7 @@ function nav(): DefaultTheme.NavItem[] {
       link: '/zh_CN/',
     },
     {
-      text: 'JAVA',
+      text: 'Java',
       items: [
         {
           text: '导航页',
