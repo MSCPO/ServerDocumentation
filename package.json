@@ -17,9 +17,9 @@
   },
   "devDependencies": {
     "@nolebase/ui": "^2.4.0",
-    "@nolebase/vitepress-plugin-enhanced-mark": "latest",
-    "@nolebase/vitepress-plugin-enhanced-readabilities": "latest",
-    "@nolebase/vitepress-plugin-inline-link-preview": "latest",
+    "@nolebase/vitepress-plugin-enhanced-mark": "^2.4.0",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.4.0",
+    "@nolebase/vitepress-plugin-inline-link-preview": "^2.4.0",
     "@types/node": "latest",
     "prettier": "latest",
     "vitepress": "latest",
