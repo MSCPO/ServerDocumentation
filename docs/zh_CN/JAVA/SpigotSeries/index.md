@@ -4,7 +4,7 @@ Spigot 是一个基于 Minecraft 的开源服务器软件，旨在优化性能�
 
 ## 庞大的 Spigot 家族
 
-::: info Spigot和她的孩子们（不完全）
+::: details Spigot和她的孩子们（不完全）
 
 ```mermaid
 graph LR

@@ -68,6 +68,10 @@ function nav(): DefaultTheme.NavItem[] {
           link: '/zh_CN/JAVA/Sponge/',
         },
         {
+          text: 'Spigot系',
+          link: '/zh_CN/JAVA/SpigotSeries/',
+        },
+        {
           text: 'Cuberite',
           link: '/zh_CN/JAVA/Cuberite/',
         },
