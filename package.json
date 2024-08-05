@@ -7,7 +7,7 @@
     "build": "vitepress build docs",
     "preview": "vitepress preview docs"
   },
-  "author": "LittleChest",
+  "author": "MSCPO",
   "license": "AGPL-3.0-or-later",
   "dependencies": {
     "markdown-it": "^14.1.0",

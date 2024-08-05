@@ -57,6 +57,10 @@ Shift + 右键服务器文件夹，单击“在此处打开命令窗口”
 服务器将会启动。
 :::
 
+::: tip 性能优化
+[服务器启动脚本生成器](https://flags.sh.cn/)
+:::
+
 ## 本教程引用了一些作者的文章
 
 - [shaokeyibb/Minecraft-Server-Starting-Guide](https://github.com/shaokeyibb/Minecraft-Server-Starting-Guide)
