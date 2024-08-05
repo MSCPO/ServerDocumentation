@@ -4,7 +4,7 @@
 
 - [x] Vanilla(原版)
 - [x] Cuberite
-- [ ] SpigotSeries *编写中
+- [x] SpigotSeries
 - [x] Sponge
 - [ ] Fabric
 - [ ] Forge

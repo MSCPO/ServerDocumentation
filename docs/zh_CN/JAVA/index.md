@@ -31,7 +31,7 @@ features:
   - icon:
       src: https://www.spigotmc.org/favicon.ico
     title: Spigot系
-    details: Spigot是我们最原始和最广泛使用的软件。这是一个基于CraftBukkit修改的Minecraft服务器，它提供了额外的性能优化，配置选项和功能，同时仍然与所有现有的插件兼容，并与Vanilla Minecraft游戏机制一致。由于其分支很多，这里统称为Spigot系。<br>*编写中
+    details: Spigot是我们最原始和最广泛使用的软件。这是一个基于CraftBukkit修改的Minecraft服务器，它提供了额外的性能优化，配置选项和功能，同时仍然与所有现有的插件兼容，并与Vanilla Minecraft游戏机制一致。由于其分支很多，这里统称为Spigot系。
     link: ./SpigotSeries/
     linkText: '开始阅读'
   - icon:

@@ -1,7 +1,6 @@
 import { defineConfigWithTheme } from 'vitepress'
 import { zh_CN, search as zhCNSearch } from './zh_CN'
 import task_lists from 'markdown-it-task-lists'
-import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 import { withMermaid } from "vitepress-plugin-mermaid";
 
 export default withMermaid(
@@ -71,7 +70,7 @@ export default withMermaid(
     markdown: {
       config: md => {
         md.use(task_lists)
-        md.use(InlineLinkPreviewElementTransform)
+        // md.use(InlineLinkPreviewElementTransform)
       },
       image: {
         // 开启图片懒加载
