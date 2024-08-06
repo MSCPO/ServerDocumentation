@@ -1,14 +1,10 @@
-# 快速开始
+# 快速开始 —— Fabric 篇
 
-## 选择并下载服务端
+## 下载 Fabric 启动器
 
-| 服务端 | 下载渠道 | 特点 |
-| :---: | :---: | :---: |
-| Paper | [Paper downloads](https://papermc.io/downloads/paper) | 稳定修特性 |
-| Spigot | [SPIGOT](https://getbukkit.org/download/spigot) | 稳定 |
-| Purpur | [Purpur](https://purpurmc.org/)| 高性能 修特性 |
-| Leaves | [Leaves](https://leavesmc.org/downloads/leaves) | 稳定 性能较高 能生电 |
-| Leaf | [Leaf](https://github.com/Winds-Studio/Leaf/releases) | 高性能 多核优化 |
+[Download Minecraft Server Launcher - FabricMC](https://fabricmc.net/use/server/)
+
+下载完成后重命名为 `fabric.jar`
 
 ## 安装 Java 环境
 
@@ -51,7 +47,7 @@
 ::: details Windows
 Shift + 右键服务器文件夹，单击“在此处打开命令窗口”
 
-键入 `java -jar server.jar nogui` 回车。
+键入 `java -jar fabric.jar nogui` 回车。
 
 服务器将会启动。
 :::
@@ -59,7 +55,7 @@ Shift + 右键服务器文件夹，单击“在此处打开命令窗口”
 ::: details Linux
 打开终端
 
-键入 `java -jar server.jar nogui` 回车。
+键入 `java -jar fabric.jar nogui` 回车。
 
 服务器将会启动。
 :::

@@ -20,8 +20,8 @@ features:
       src: https://fabricmc.net/assets/logo.png
     title: Mod端
     details: 包含Fabric端、Forge端、Neoforge端、Quilt端（注:混合端暂时不在支持内;地毯生电端本质上是Fabric端）<br>*编写中
-    #link: ./Mod/
-    #linkText: '开始阅读'
+    link: ./Mod/
+    linkText: '开始阅读'
   - icon:
       src: https://docs.spongepowered.org/stable/zh-CN/_static/spongie-mark-dark.svg
     title: Sponge

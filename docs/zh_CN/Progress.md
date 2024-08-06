@@ -1,6 +1,6 @@
 # 编写进度
 
-## JAVA
+## Java
 
 - [x] Vanilla(原版)
 - [x] Cuberite

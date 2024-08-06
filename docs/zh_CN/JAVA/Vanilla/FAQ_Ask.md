@@ -1,3 +1,13 @@
+## 命令行提示`You need to agree to the EULA in order to run the server. Go to eula.txt for more info.`后自动退出了
+
+原因：服务器没有同意[EULA](https://www.minecraft.net/zh-hans/eula)，将`eula=false`改为`eula=true`并保存后即可正常运行。
+
+``` txt{3}
+#By chaging the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).
+#(开服时间)
+eula=false // [!code focus]
+```
+
 ## 登录时提示：`登录失败：无效会话（请尝试重启游戏及启动器）`
 
 原因：服务器可能配置为正版服/外置登陆服，而客户端使用离线模式加入。

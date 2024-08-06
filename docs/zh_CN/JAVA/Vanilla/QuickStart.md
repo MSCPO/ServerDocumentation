@@ -24,11 +24,13 @@
 
 -------
 
-版本说明：
-
-Java 17 LTS 版本适用于 Minecraft 1.17-1.19.4 版本，Minecraft 1.17-1.17.1 默认 Java 版本是 16，Java 17 LTS 向下兼容。
-
-Java 8 LTS 版本适用于 Minecraft 1.12-1.16.5 版本，Java 11 LTS 版本向下兼容。
+>版本说明：
+>
+>如果为 Minecraft 1.20.5 及以上版本使用 Java 21
+>
+>Java 17 LTS 版本适用于 Minecraft 1.17-1.20.4 版本，Minecraft 1.17-1.17.1 默认 Java 版本是 16，Java 17 LTS 向下兼容。
+>
+>Java 8 LTS 版本适用于 Minecraft 1.12-1.16.5 版本，Java 11 LTS 版本向下兼容。
 
 :::
 
@@ -44,7 +46,7 @@ Java 8 LTS 版本适用于 Minecraft 1.12-1.16.5 版本，Java 11 LTS 版本向�
 ::: details Windows
 Shift + 右键服务器文件夹，单击“在此处打开命令窗口”
 
-键入 `java -jar server.jar` 回车。
+键入 `java -jar server.jar nogui` 回车。
 
 服务器将会启动。
 :::
@@ -52,10 +54,12 @@ Shift + 右键服务器文件夹，单击“在此处打开命令窗口”
 ::: details Linux
 打开终端
 
-键入 `java -jar server.jar` 回车。
+键入 `java -jar server.jar nogui` 回车。
 
 服务器将会启动。
 :::
+
+>如果你是第一次启动服务器，会遇到 [命令行提示`You need to agree to the EULA in order to run the server. Go to eula.txt for more info.`后自动退出了](FAQ) 的问题。
 
 ::: tip 性能优化
 [服务器启动脚本生成器](https://flags.sh.cn/)

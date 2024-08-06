@@ -64,6 +64,10 @@ function nav(): DefaultTheme.NavItem[] {
           link: '/zh_CN/JAVA/Vanilla/',
         },
         {
+          text: 'Mod 服',
+          link: '/zh_CN/JAVA/Mod/',
+        },
+        {
           text: 'Sponge',
           link: '/zh_CN/JAVA/Sponge/',
         },
@@ -85,6 +89,10 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: '更多',
       items: [
+        {
+          text: '番外篇',
+          link: '/zh_CN/Extra/',
+        },
         {
           text: '编写进度',
           link: '/zh_CN/Progress',

@@ -7,9 +7,11 @@
 import VanillaSidebar from './JAVA/Vanilla'
 import CuberiteSidebar from './JAVA/Cuberite'
 import SpigotSidebar from './JAVA/SpigotSeries'
+import ModSidebar from './JAVA/Mod'
 
 export default {
     ...CuberiteSidebar,
     ...VanillaSidebar,
     ...SpigotSidebar,
+    ...ModSidebar,
 }
