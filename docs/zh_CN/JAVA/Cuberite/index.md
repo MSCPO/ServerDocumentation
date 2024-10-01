@@ -16,7 +16,7 @@ Cuberite可在Windows、*nix和Android操作系统上运行。这包括Android�
 
 [Cuberite的Github储存库](https://github.com/cuberite/cuberite/)
 
-[Cuberite_dfgg(国内汉化版本)的Github储存库](https://gitee.com/dfggmc/cuberite_dfgg)
+[Cuberite_dfgg(国内汉化版本)的Github储存库](https://jihulab.com/dfgg/cuberite_dfgg)
 
 [官方：Cuberite用户手册](https://github.com/cuberite/users-manual)
 
