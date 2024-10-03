@@ -29,14 +29,16 @@ Address=/session/minecraft/hasJoined?username=%USERNAME%&serverId=%SERVERID%
 
 添加一个 WebAdmin 账户，详见 [基础配置/WEBADMIN](./2_CONFIGURATION_BASICS/2_3_WEBADMIN)
 
-## 服务端提示：`Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!`
+## 服务端提示：`Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!`&`Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!`
 
 原因：Cuberite对于 1.13和1.14.4 的版本支持尚不完全。
 >注：这并不影响服务器的正常运行
 
 ### 解决方法
 
-暂无，只能等待更新，Cuberite 计划添加 1.13和1.14.4 版本支持，但是其实现并不完全 ~~烂尾力~~(悲)
+解决方法是有的，但是在解决这个报错后你会迎来更多的警告（  
+如果你执意要解决这个报错的话，你可以把目录“Protocol/1.13/”和“Protocol/1.14.4”下的“base.btp.txt”改为“base.recipes.txt”  
+如果你不想看到刷满屏的警告，那么只能等待更新，Cuberite 计划添加 1.13和1.14.4 版本支持，但是其实现并不完全 ~~烂尾力~~(悲)  
 
 ## 服务端提示：`Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs\SinglePieceStructures\JungleTemple.cubeset. Skipping the biome.`
 
