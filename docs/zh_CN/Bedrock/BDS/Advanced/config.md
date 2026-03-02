@@ -15,7 +15,7 @@ server.properties是储存BDS所有设置的文件。
 :::
 
 <script setup>
-import ConfigViewer from "/components/ConfigViewer.vue";
+import ConfigViewer from "/docs/components/ConfigViewer.vue";
 import { data } from "./server-properties.data.mts";
 </script>
 
