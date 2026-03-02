@@ -2,7 +2,7 @@
 
 ## Commit Message Specification
 
-The commit message format is: [Note]<Type> <Message>.
+The commit message format is: `[Note]<Type> <Message>`.
 
 [Optional Type](https://gitmoji.dev/)
 
