@@ -13,7 +13,7 @@ server.properties是储存多人游戏（Minecraft或Minecraft Classic）服务�
 :::
 
 <script setup>
-import ConfigViewer from "/components/ConfigViewer.vue";
+import ConfigViewer from "/docs/components/ConfigViewer.vue";
 import { data } from "./server-propertie.data.mts";
 </script>
 
